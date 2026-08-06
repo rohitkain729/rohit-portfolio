@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="container mb-2" id="Home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="border border-3 border-primary px-2 fw-bold fs-4"
+              >R</span
+            ></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarItems"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarItems">
+            <ul
+              class="navbar-nav m-auto mb-2 mb-lg-0 text-center fs-6 fw-bold"
+              style="color: #222230"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#section-details"
+                  >HOME</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#SKILLS">SKILLS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#project">PROJECT</a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="../public/resume/Resume.pdf"
+                  target="_blank"
+                  >RESUME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section
+      id="section-details"
+      class="d-flex justify-content-around px-2 container img-fluid"
+    >
+      <div class="d-flex align-items-start flex-column justify-content-center">
+        <span class="fw-bold" id="dev-name">Rohit Verma</span>
+        <span class="text-danger h3">Java Full Stack Developer</span>
+        <span class="btn btn-danger text-white w-50 fs-4 py-2" id="hireMe"
+          >Hire Me</span
+        >
+        <aside class="mt-3">
+          <a href="https://github.com/rohitkain729" target="_blank" class="social-media"><i class="fa-brands fa-square-git  text-secondary"></i></a>
+          <a href="www.linkedin.com/in/rohit-verma-77a824284" target="_blank" class="social-media"><i class="fa-brands fa-linkedin text-secondary"></i></a>
+
+        </aside>
+        
+      </div>
+      <div>
+        <img
+          src="../public/images/rohit_img.png"
+          alt="image"
+          id="devImg"
+          class="img-fluid"
+        />
+      </div>
+    </section>
+
+    <section id="SKILLS" class="container mt-2">
+      <div class="h4 text-danger text-center">TECHNOLOGIES I KNOW</div>
+      <hr />
+      <div class="d-flex">
+        <img
+          src="../public/images/TOOLS.png"
+          alt="tools"
+          id="tools"
+          class="img-thumbnail img-fluid m-auto"
+        />
+      </div>
+    </section>
+
+    <section id="project" class="container">
+      <hr />
+      <div class="h4 text-danger text-center">PROJECTS</div>
+
+      <div>
+        <div>
+          <p class="fw-bold">Current Project:</p>
+          <span class="fw-bold">Title :</span> MetaCore Suppliers and Storage
+          Jen-Tin Warehouse <br />
+          <span class="fw-bold">Client Organization:</span> Adelaide Warehouse &
+          Distribution Service , Australia. <br />
+
+          <span class="fw-bold">Environment:</span>JDK 1.8, Spring Boot 4.x,
+          Maven, JUnit, SQL, Eclipse, AWS, DevTools Jenkins <br />
+
+          <span class="fw-bold">Description :</span>
+          My Project is Supply Chain Management Domain. This, is for stock
+          Management Between different customers and vendors using warehouse
+          application, That supports orders, Invoices, Tax Calculations
+          Reporting. Warehouse application is products Management Software that
+          is used by warehouse users that fullfill daily needs of End Customers
+          using different Channels for Stock Exchange. This Software is for
+          Distribution Management of Stock Between Manufacturing Company and
+          Retails using Stock Storage concept. Involved Between multiple
+          channels and Controlled by warehouse Provides Stock Management service
+          for Different Users. Admin. It
+
+          <p class="fw-bold mt-2">Responsibilities:</p>
+          Used Spring framework for Dependency Injection Also, involve to
+          develop Service Layer. Used MVN for repository Resolving the
+          production issues reported by the client users. Working in the backend
+          ,creating the api , and also configuring the database. Writing the
+          unit test case for backend logic and api worked in the Presentation
+          Layer and created the Landing Page of the website.
+        </div>
+
+        <div>
+          <hr />
+          <div class="fw-bold fs-5">Legacy Projects</div>
+          <div class="mt-3">
+            <div>
+              <span class="fw-bold">Title :</span> E-Commerce Web Application
+              <br />
+
+              <span class="fw-bold">Client Organization:</span> Adelaide
+              Warehouse & Distribution Service , Australia. <br />
+
+              <span class="fw-bold">Environment:</span> JDK 17, Spring Boot 3.x,
+              Spring Security, JWT, Hibernate, JPA, MySQL, Maven, JUnit, Git,
+              GitHub, Postman, Eclipse <br />
+
+              <span class="fw-bold">Description :</span>
+
+              The E-Commerce Web Application is an online shopping platform that
+              enables customers to browse products, manage shopping carts, place
+              orders, and track order history. The application provides secure
+              user authentication, product management, inventory management,
+              payment processing, and order management. It exposes RESTful APIs
+              that are consumed by frontend applications, ensuring secure and
+              efficient communication between client and server.
+
+              <p class="fw-bold mt-2">Responsibilities:</p>
+
+              <ul>
+                <li>
+                  Developed RESTful APIs using Spring Boot and Spring MVC.
+                </li>
+                <li>
+                  Implemented business logic in the Service Layer following
+                  layered architecture.
+                </li>
+                <li>
+                  Developed CRUD operations for Products, Categories, Customers,
+                  Orders, and Cart modules.
+                </li>
+                <li>
+                  Implemented Spring Security with JWT-based authentication and
+                  authorization.
+                </li>
+                <li>
+                  Used Spring Data JPA and Hibernate for database operations.
+                </li>
+                <li>Designed and optimized MySQL database queries.</li>
+                <li>
+                  Integrated backend services with third-party payment and email
+                  notification APIs.
+                </li>
+                <li>
+                  Implemented exception handling and request validation for REST
+                  APIs.
+                </li>
+                <li>Performed unit testing using JUnit.</li>
+                <li>Tested REST APIs using Postman.</li>
+                <li>Used Maven for dependency management and project build.</li>
+                <li>
+                  Worked with Git for source code management and version
+                  control.
+                </li>
+                <li>
+                  Resolved production issues and fixed backend defects reported
+                  by QA and clients.
+                </li>
+                <li>
+                  Participated in Agile sprint planning, daily stand-up
+                  meetings, and code reviews.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <span class="fw-bold">Title :</span> Inventory Management System (IMS)
+          <br />
+
+          <span class="fw-bold">Client Organization:</span> Oriental Insurance
+          <br />
+
+          <span class="fw-bold">Role :</span> Backend Developer <br />
+
+          <span class="fw-bold">Environment:</span> JDK 1.8, Spring Framework,
+          Spring MVC, Core Java, JSP, Servlet, Hibernate, Web Services, MySQL,
+          Maven, JUnit, Eclipse, Git <br />
+
+          <span class="fw-bold">Team Size:</span> 10 <br />
+
+          <span class="fw-bold">Duration:</span> November 2022 – 2023 <br />
+
+          <span class="fw-bold">Description :</span>
+
+          The Inventory Management System (IMS) is a web-based enterprise
+          application developed to manage the storage, tracking, and
+          distribution of medicines across multiple warehouses and states. The
+          system maintains inventory records, monitors stock movement,
+          identifies expired medicines based on manufacturing and expiry dates,
+          and facilitates the return of expired stock to the respective
+          manufacturers. A dedicated login module was provided for each state,
+          enabling authorized users to manage inventory and monitor product
+          movement. The application also generated daily reports for warehouse
+          managers using scheduled batch jobs.
+
+          <p class="fw-bold mt-2">Responsibilities:</p>
+
+          <ul>
+            <li>
+              Worked on the maintenance and enhancement of the Inventory
+              Management System using Spring MVC, JSP, Servlets, Hibernate, and
+              Core Java.
+            </li>
+            <li>
+              Developed backend modules for inventory management, medicine
+              tracking, and warehouse operations.
+            </li>
+            <li>
+              Created and optimized SQL queries involving multiple table joins
+              to generate consolidated inventory reports.
+            </li>
+            <li>
+              Used temporary tables to process and store large volumes of data
+              for reporting purposes.
+            </li>
+            <li>
+              Implemented scheduled batch jobs (Cron Scheduler) to generate
+              daily inventory reports for warehouse managers.
+            </li>
+            <li>
+              Executed Cron Scheduler manually whenever urgent report generation
+              was required during business hours.
+            </li>
+            <li>
+              Implemented MD5-based password encryption for the user login
+              module.
+            </li>
+            <li>
+              Fixed production defects and enhanced existing functionalities
+              based on client requirements.
+            </li>
+            <li>
+              Performed database operations using Hibernate and optimized query
+              performance.
+            </li>
+            <li>
+              Participated in code reviews, debugging, testing, and deployment
+              activities.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <hr>
+          <div>
+
+<span class="fw-bold">Title :</span> Wanderlust – Airbnb Clone (Personal Project) <br>
+
+<span class="fw-bold">Role :</span> Full Stack Developer <br>
+
+<span class="fw-bold">Environment:</span> MongoDB, Express.js, Node.js, EJS, HTML5, CSS3, Bootstrap, JavaScript, Mongoose, Passport.js, Cloudinary, Multer, Git, GitHub <br>
+
+<span class="fw-bold">Duration:</span> Personal Learning Project <br>
+
+<span class="fw-bold">Description :</span>
+
+Wanderlust is a full-stack web application inspired by Airbnb that allows users to browse, create, edit, and manage property listings. The application includes secure user authentication, image uploads, property reviews, and responsive UI. It follows the MVC architecture and integrates MongoDB for data persistence and Cloudinary for image storage.
+
+<p class="fw-bold mt-2">
+Responsibilities:
+</p>
+
+<ul>
+    <li>Developed the application using Node.js, Express.js, MongoDB, and EJS.</li>
+    <li>Designed MongoDB schemas using Mongoose.</li>
+    <li>Implemented user authentication and authorization using Passport.js.</li>
+    <li>Implemented CRUD operations for property listings.</li>
+    <li>Integrated Cloudinary and Multer for image upload and storage.</li>
+    <li>Developed the review and rating functionality.</li>
+    <li>Implemented server-side validation and error handling.</li>
+    <li>Designed responsive user interfaces using Bootstrap, HTML, CSS, and JavaScript.</li>
+    <li>Used Git and GitHub for version control.</li>
+</ul>
+
+</div>
+        </div>
+      </div>
+
+      <hr />
+    </section>
+
+    <section
+      id="footer"
+      class="text-white d-flex flex-column align-items-center justify-content-center gap-5 container"
+    >
+      <div id="contact" class="h2 border-bottom border-2 border-light">
+        Contact Me
+      </div>
+      <div class="fs-4 text-center d-flex justify-content-around gap-5">
+        <div>
+          <span class="details-contact">Mobile:</span>
+          <span class="details-contact">+91-9039689781</span>
+        </div>
+        <div>
+          <span class="details-contact">Email:</span>
+          <span class="details-contact">rohit729verma@gmail.com</span>
+        </div>
+      </div>
+      <button class="btn btn-light text-dark fs-3 fw-bold px-5 py-2">
+        Hire Me
+      </button>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
