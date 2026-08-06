@@ -1,94 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    /* height: 50px;      or whatever your navbar height is */
-    z-index: 1000;
-    /* margin: auto; */
-    /* position: fixed; */
-    top: 0;
-    /* left: 7.5rem; */
-    position: sticky;
+  /* height: 50px;      or whatever your navbar height is */
+  z-index: 1000;
+  /* margin: auto; */
+  /* position: fixed; */
+  top: 0;
+  /* left: 7.5rem; */
+  position: sticky;
 }
 
-
-#section-details .social-media{
-    font-size: 4rem;
-    text-align: center;
-    /* background-color: red; */
+#section-details .social-media {
+  font-size: 4rem;
+  text-align: center;
+  /* background-color: red; */
 }
 
-
-
-
-#section-details{
-    /* display: flex ;
+#section-details {
+  /* display: flex ;
     justify-content: space-around;
     background-color: red;
     width: 100%; */
-    /* padding-top: 3rem; */
-    /* margin-top: 10rem; */
-    height: 30rem;
-    /* width: 60rem; */
-    margin: auto;
-    background-image: url('../images/banner-bg.jpg');
-    background-size: cover;
+  /* padding-top: 3rem; */
+  /* margin-top: 10rem; */
+  height: 30rem;
+  /* width: 60rem; */
+  margin: auto;
+  background-image: url("../images/banner-bg.jpg");
+  background-size: cover;
 }
-#hireMe{
-    margin-top: 5rem;
-}
-
-
-#dev-name{
-    font-size: 2.5rem;
+#hireMe {
+  margin-top: 5rem;
 }
 
-#devImg{
-    height: 30rem;
+#dev-name {
+  font-size: 2.5rem;
 }
 
-#tools{
-    width: 60%;
-    height:18rem;
-    
+#devImg {
+  height: 30rem;
 }
 
-#footer{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    /* background-color: red; */
-    height: 25rem;
-    background-color: #E45447;
+#tools {
+  width: 60%;
+  height: 18rem;
 }
 
-#contact{
-    font-size: 3rem;
-    font-weight: 800;
+#footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* background-color: red; */
+  height: 25rem;
+  background-color: #e45447;
 }
 
-#footer .details-contact{
-   font-weight: 700;
+#contact {
+  font-size: 3rem;
+  font-weight: 800;
 }
 
-
+#footer .details-contact {
+  font-weight: 700;
+}
 
 @media (max-width: 576px) {
+  #section-details {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10rem; */
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #section-details{
+  #section-details .social-media {
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+
+  #hireMe {
+    margin-top: 2rem;
+    /* padding-top: auto; */
+    /* padding-bottom: auto; */
+
+    /* text-align: center; */
+    /* align-items: center; */
+    display: inline-block;
+    width: 6.5rem !important;
+    height: 2.8rem !important;
+  }
+
+  #section-details img {
+    height: 15rem;
+    /* background-color: red; */
+  }
+
+  #dev-name {
+    font-size: 1.5rem;
+
+   
+  }
+
+   #tools {
+      width: 90%;
+      height: 13rem;
+    }
+
+    #footer{
+         margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* background-color: red; */
+  height: 20rem;
+  background-color: #e45447;
+    }
+
+    #footer #contact{
+        font-size: 1.5rem;
+    }
+
+    #footer-contact{
         display: flex;
         flex-direction: column;
-        margin-top: 10rem;
+        gap: 10px !important;
+        font-size: 1.2rem !important;
     }
-    #
-     #section-details img{
-        height: 10rem;
-     }
 
-     #dev-name{
-    font-size: 1.5rem;
-}
+    #footer #footer-btn{
+        font-size: 18px !important;
+        padding: 10px !important;
+        /* background-color: black !important; */
+    }
 }
